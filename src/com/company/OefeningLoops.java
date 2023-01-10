@@ -11,6 +11,9 @@ public class OefeningLoops {
         // maak een methode die een array van hobbies als input neemt, en vervolgens voor iedere hobby print "oh wat leuk, xxx" (bijv oh wat leuk, coderen)
         String[] bezigheden = {"Java coderen", "C# coderen", "PHP coderen"};
         printHobbies(bezigheden);
+
+        // maak een methode die true of false teruggeeft. Als input neemt ie een array met getallen, als het getal 3 aanwezig is, geeft ie true terug, als het getal 3 niet aanwezig is geeft ie false terug. Implementeer dit met een while loop. Begin met een boolean notFound aan te maken en die zetten we op true. Als 3 gevonden is, zetten we notFound op false.
+        // maak een tweede printhobbies methode (noem deze iets anders als je deze naam al hebt), implementeer deze met een foreach loop
     }
 
     public static void maakGetallenReeks(int max, String modus) {
