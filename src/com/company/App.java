@@ -19,28 +19,44 @@ public class App {
         p3.leeftijd = 26;
 
         Hond h1 = new Hond();
-        h1.naam = "Ted";
-        h1.kleur = "zwartbruin";
-        h1.hangOren = true;
-        h1.aantalPoten = 4;
+//        h1.naam = "Ted";
+        h1.setNaam("Ted");
+//        h1.kleur = "zwartbruin";
+        h1.setKleur("zwartbruin");
+//        h1.hangOren = true;
+        h1.setHangOren(true);
+//        h1.aantalPoten = 4;
+        h1.setAantalPoten(4);
         Persoon[] personen = {p2, p3};
-        h1.baasje = personen;
+        h1.setBaasje(personen);
+//        h1.baasje = personen;
         h1.zit();
 
         Hond h2 = new Hond();
-        h2.naam = "Donny";
-        h2.kleur = "witbruin";
-        h2.hangOren = true;
-        h2.aantalPoten = 4;
+        h2.setNaam("Donny");
+        h2.setKleur("witbruin");
+        h2.setHangOren(true);
+        h2.setAantalPoten(4);
         Persoon[] jesseArr = {p};
-        h2.baasje = jesseArr;
+        h2.setBaasje(jesseArr);
+
+//        h2.naam = "Donny";
+//        h2.kleur = "witbruin";
+//        h2.hangOren = true;
+//        h2.aantalPoten = 4;
+//        Persoon[] jesseArr = {p};
+//        h2.baasje = jesseArr;
         h2.zit();
 
         Hond h3 = new Hond();
-        h3.naam = "Bobby";
-        h3.kleur = "bruin";
-        h3.aantalPoten = 4;
-        h3.hangOren = true;
+        h3.setNaam("Bobby");
+        h3.setKleur("bruin");
+        h3.setAantalPoten(4);
+        h3.setHangOren(true);
+//        h3.naam = "Bobby";
+//        h3.kleur = "bruin";
+//        h3.aantalPoten = 4;
+//        h3.hangOren = true;
         h3.zit();
 
 
