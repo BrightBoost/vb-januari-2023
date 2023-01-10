@@ -13,7 +13,7 @@ public class OefeningLoops {
         printHobbies(bezigheden);
 
         int[] arr = {2, 4, 5, 6, 7};
-        int[] arr2 = {3};
+        int[] arr2 = {2, 3, 4, 5, 6, 3};
         boolean b = checkVoorDrie(arr);
         boolean b2 = checkVoorDrie(arr2);
         System.out.println(b + " " + b2);
@@ -52,6 +52,7 @@ public class OefeningLoops {
             if(getallen[i] == 3) {
                 notFound = false;
             }
+            System.out.println(getallen[i]);
             i++;
         }
 
