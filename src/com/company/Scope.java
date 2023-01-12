@@ -45,5 +45,5 @@ public class Scope {
     // in de methode, maak een int x = 5 aan - waar is deze te bereiken
 
     // maak een static methode die print hoeveel mensen er zijn
-    // welke fields kun je in deze methode gebruiken? 
+    // welke fields kun je in deze methode gebruiken?
 }
