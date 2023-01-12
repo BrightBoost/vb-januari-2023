@@ -1,0 +1,8 @@
+Maak een class Vehicle
+Geef Vehicle drie methodes: start en stop en maakgeluid
+
+Maak een class Car en een class Bike
+Implementeer de methodes start en stop in Car en Bike
+Geef Car en Bike een specifiekere implementatie voor maakGeluid
+
+Opdracht: 1 van de drie klasses moet abstract zijn en twee abstracte methodes hebben
