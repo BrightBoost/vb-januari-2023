@@ -7,4 +7,9 @@ public class Cat extends Animal {
             System.out.println(getGeluid());
         }
     }
+
+    @Override
+    public void eat() {
+        System.out.println("steel en eet stiekem op");
+    }
 }

@@ -1,6 +1,6 @@
 package com.company.OOP;
 
-public class Animal {
+public abstract class Animal {
     // maak een class Animal
     // geef deze twee properties die alle dieren overeenkomstig hebben
 
@@ -11,9 +11,20 @@ public class Animal {
     // in een aparte class (app bijv), maak zowel een hond als een kat aan en zet en print de properties
     private String naam;
     private String geluid;
+    private String kleur;
 
     public void maakGeluid() {
         System.out.println(geluid);
+    }
+
+    public abstract void eat();
+
+    public String getKleur() {
+        return kleur;
+    }
+
+    public void setKleur(String kleur) {
+        this.kleur = kleur;
     }
 
     public String getNaam() {

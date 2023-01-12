@@ -6,8 +6,12 @@ public class User {
     private String userId;
 
     // methode log sign in te maken, deze logt mail, username en userid
+    public void logSignIn() {
+        System.out.println("Mail: " + mail + " Username: " + username + " UserId: " + userId);
+    }
+
     // overschrijf deze methode in admin door een speciale admincode extra te loggen (sysout)
-    // overschrijf deze methode in user door enkel userId te loggen
+    // overschrijf deze methode in basicuser door enkel userId te loggen
     // in app, roep deze methodes aan
 
     public String getUserId() {
