@@ -20,15 +20,10 @@ public class MiniOefeningen {
         }
 
         // Maak een class "CircusAct" die de naam van de act, het aantal artiesten en de duur van de act bevat. Voeg methoden toe die informatie over het circus en shows print. Voeg ook een methode start toe die "The show is starting!" print als de act begint. Maak ten minste 2 instanties van de class CircusAct en roep de "start" methode van elk object aan.
-        CircusAct ca = new CircusAct();
-        ca.setNaam("Trapeze act");
-        ca.setAantalArtiesten(2);
-        ca.setDuurMinuten(5);
+        CircusAct ca = new CircusAct("Trapeze act", 2, 5);
 
-        CircusAct ca2 = new CircusAct();
-        ca2.setNaam("Clown act");
-        ca2.setAantalArtiesten(1);
-        ca2.setDuurMinuten(15);
+        CircusAct ca2 = new CircusAct("clown act", 1, 15);
+
 
         ca.start();
         ca.printActInfo();

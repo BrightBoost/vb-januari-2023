@@ -5,6 +5,13 @@ public class CircusAct {
     private int aantalArtiesten;
     private int duurMinuten;
 
+
+    public CircusAct(String naam, int aantalArtiesten, int duurMinuten) {
+        this.naam = naam;
+        this.aantalArtiesten = aantalArtiesten;
+        this.duurMinuten = duurMinuten;
+    }
+
     public void printActInfo() {
         System.out.println(naam + " heeft " + aantalArtiesten + " artiesten. En duurt " + duurMinuten + " minuten.");
     }

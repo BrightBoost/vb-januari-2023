@@ -1,0 +1,21 @@
+Java structuur (done)
+Variables: primitive and objects (object > alleen string)
+Methods (alleen static methods)
+Control flow (if, for loop)
+>> Objects (properties, methods, getters en setters en composition)
+>> Enums
+>> Scope
+Memory management
+Access modifiers + static (done)
+>>OOP
+>> Interfaces
+>> Abstract and final
+Lambdas
+
+X Scope
+X Objecten / OOP
+Constructors
+X Abstract
+final
+Interfaces
+Enums
