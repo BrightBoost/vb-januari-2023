@@ -16,6 +16,7 @@ public class HumanApp {
 
         h1.printPopulation();
 
+
         Human h3 = new Human();
         h3.setNaam("Maaike");
         h3.setFavGreeting("Hoi");
