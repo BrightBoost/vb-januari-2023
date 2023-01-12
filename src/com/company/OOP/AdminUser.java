@@ -4,6 +4,10 @@ public class AdminUser extends User {
     private BasicUser[] basicUsers;
     private String adminCode;
 
+    public AdminUser() {
+        super("", "", "");
+    }
+
     @Override
     public void logSignIn() {
         super.logSignIn();

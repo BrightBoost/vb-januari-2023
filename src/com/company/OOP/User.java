@@ -5,6 +5,12 @@ public class User {
     private String username;
     private String userId;
 
+    public User(String mail, String username, String userId) {
+        this.mail = mail;
+        this.username = username;
+        this.userId = userId;
+    }
+
     // methode log sign in te maken, deze logt mail, username en userid
     public void logSignIn() {
         System.out.println("Mail: " + mail + " Username: " + username + " UserId: " + userId);

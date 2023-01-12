@@ -15,10 +15,7 @@ public class App {
         System.out.println(adminUser.getUsername());
         adminUser.logSignIn();
 
-        BasicUser basicUser = new BasicUser();
-        basicUser.setUsername("Maaike123");
-        System.out.println(basicUser.getUsername());
-        basicUser.setUserId("User1");
+        BasicUser basicUser = new BasicUser("maaike@maaiike.nl", "maaike123", "user1");
         basicUser.logSignIn();
 
         if(basicUser.getMail() != null) {
