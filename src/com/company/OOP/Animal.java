@@ -13,6 +13,9 @@ public abstract class Animal {
     private String geluid;
     private String kleur;
 
+    // custom constructor die naam geluid en kleur
+    // fix de problemen
+
     public void maakGeluid() {
         System.out.println(geluid);
     }
