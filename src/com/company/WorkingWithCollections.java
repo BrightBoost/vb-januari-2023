@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.finalkeyword.Car;
+
 import java.util.*;
 
 
@@ -68,6 +70,7 @@ public class WorkingWithCollections {
         h.setHangOren(true);
         h.setNaam("Donny");
         honden.add(h);
+        honden.remove(h);
 
         // map
         Map<String, Integer> cursisten = new HashMap<>();
@@ -78,18 +81,42 @@ public class WorkingWithCollections {
 
         // set opdracht
         // maak een set van Cars
-        // Voeg drie cars aan de set toe
-        // print het merk van de auto's in de set
-        // verwijder de auto die je als eerst toevoegde
+        Set<Car> cars = new HashSet<>();
 
-        
+        // Voeg drie cars aan de set toe
+        Car c = new Car();
+        c.aantalEigenaren = 3;
+        c.merk = "fiat";
+        cars.add(c);
+
+        Car c2 = new Car();
+        c.aantalEigenaren = 13;
+        c.merk = "peugeot";
+        cars.add(c2);
+
+        // print het merk van de auto's in de set
+        for(Car car : cars) {
+            System.out.println(car.merk);
+        }
+
+        // verwijder de auto die je als eerst toevoegde
+        cars.remove(c);
+
         // map opdracht
         // maak een map met key string en value auto
+        Map<String, Car> wagenpark = new HashMap<>();
+
         // koppel een medewerkernummer (string) aan een auto (car)
         // voeg 3 medewerkers/auto's toe
-        // verander de auto van de eerste medewerker in de lijst
 
-        System.out.println(cursisten);
+        wagenpark.put("123", c);
+        wagenpark.put("1234", c2);
+
+        // verander de auto van de eerste medewerker in de lijst
+        wagenpark.put("123", c2);
+
+        System.out.println(wagenpark);
+
 
 
 //        Hond h = new Hond();

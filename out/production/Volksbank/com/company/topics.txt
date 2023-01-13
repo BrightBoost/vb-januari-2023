@@ -8,10 +8,9 @@ Access modifiers + static (done)
 OOP (done)
 Constructors (done)
 Abstract and final (done)
-toString / equals uit Object
-
-collections
-exceptions
+toString / equals uit Object (semi)
+collections (done)
+exceptions: checked exception (specificeer protocol) and unchecked exception
 enums
 Interfaces
 Lambdas

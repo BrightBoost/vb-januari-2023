@@ -5,8 +5,9 @@ public class Car extends Vehicle {
 //    public void start() {
 //        System.out.println("start car");
 //    }
-    final int nrOfWheels = 4;
-    int aantalEigenaren;
+    public final int nrOfWheels = 4;
+    public String merk;
+    public int aantalEigenaren;
 
     public void nonStatic() {
         System.out.println(aantalEigenaren);
