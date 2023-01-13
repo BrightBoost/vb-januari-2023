@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class Hond {
 
     // maak de properties private
@@ -70,6 +72,18 @@ public class Hond {
     // static is voor de class, niet instantie
     public static void statistiekenHonden() {
         System.out.println("Hier heb je geen instantie voor nodig");
+    }
+
+    @Override
+    public String toString() {
+        return "Hond{" +
+                "naam='" + naam + '\'' +
+                ", kleur='" + kleur + '\'' +
+                ", aantalPoten=" + aantalPoten +
+                ", lengteStaart=" + lengteStaart +
+                ", hangOren=" + hangOren +
+                ", baasje=" + Arrays.toString(baasje) +
+                '}';
     }
 
     // twee functies:

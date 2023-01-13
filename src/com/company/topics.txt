@@ -3,28 +3,22 @@ Variables: primitive and objects (object > alleen string)
 Methods (done)
 Control flow (done-ish, to do: switch, do-while)
 Objects (properties, methods, getters en setters en composition) (done)
->> Enums
 Scope (done)
 Access modifiers + static (done)
 OOP (done)
 Constructors (done)
+Abstract and final (done)
+toString / equals uit Object
 
->> Abstract and final
+collections
 exceptions
-Lambdas
+enums
 Interfaces
+Lambdas
 
 
-
-X Scope
-X Objecten / OOP
-x Constructors
-X Abstract
-final
-Enums
 
 Na cursus:
-- exceptions
 - switch
 - do while
 - localdate / localtime / localdatetime
