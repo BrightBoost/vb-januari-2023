@@ -14,6 +14,6 @@ public class AnimalApp {
         // allemaal hebben ze een method beweeg
         // de watervoertuigen hebben een method vaar, deze komt uit de interface watervoertuig
         // zorg dat de watervoertuigen de interface "watervoertuig" implementeren
-        
+
     }
 }

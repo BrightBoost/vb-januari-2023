@@ -12,15 +12,13 @@ toString / equals uit Object (semi)
 collections (done)
 exceptions: checked exception (specificeer protocol) and unchecked exception (done)
 enums (done)
-Interfaces
-Lambdas
-
-
+Interfaces (done)
+localdate/localtime/localdatetime/zoneddatetime
 
 Na cursus:
 - switch
 - do while
-- localdate / localtime / localdatetime
+- lambdas
 - logging
 - unit testing
 - memory management
