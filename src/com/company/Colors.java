@@ -1,17 +1,23 @@
 package com.company;
 
 public enum Colors {
-    PAARS(1), BLAUW(2), GROEN(3);
+    PAARS(1, true), BLAUW(2, false), GROEN(3, true);
 
     private int i;
+    private boolean mooi;
 
     public int getI() {
         return i;
     }
 
-    Colors(int i) {
+    public boolean isMooi() {
+        return mooi;
+    }
+
+    Colors(int i, boolean mooi) {
         System.out.println("Hoe vaak print dit?");
         this.i = i;
+        this.mooi = mooi;
     }
 
     // maak een enum voor de dagen van de week

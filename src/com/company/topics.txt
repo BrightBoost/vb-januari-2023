@@ -11,7 +11,7 @@ Abstract and final (done)
 toString / equals uit Object (semi)
 collections (done)
 exceptions: checked exception (specificeer protocol) and unchecked exception (done)
-enums
+enums (done)
 Interfaces
 Lambdas
 

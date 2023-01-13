@@ -15,6 +15,14 @@ public class MainApp {
             System.out.println("oh wat leuk");
         }
 
+        if(lievelingskleur.getI() > 2) {
+            System.out.println("weekend");
+        }
+
+        if(lievelingskleur.isMooi()) {
+            System.out.println("mooi!");
+        }
+
 
 
     }
