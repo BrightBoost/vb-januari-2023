@@ -2,9 +2,7 @@ package com.company.exceptions;
 
 import com.company.finalkeyword.Car;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 public class FunWithExceptions {
     public static void main(String[] args) {
@@ -16,11 +14,17 @@ public class FunWithExceptions {
 
         try {
             FileReader fr = new FileReader("blabla.txt");
-            int ch = 0;
+            FileWriter fw = new FileWriter("out.txt", true);
+            int ch;
             while((ch = fr.read()) != -1) {
-                System.out.println((char)ch);
+                System.out.print((char)ch);
+                fw.write((char)ch);
             }
-        } catch (FileNotFoundException e) {
+            fw.close();
+            fr.close();
+            System.out.println();
+        } catch (FileNotFoundException  e) {
+            System.out.println("woops file not found");
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
